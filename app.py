@@ -1,6 +1,5 @@
 import graphviz
 import networkx as nx
-import matplotlib.pyplot as mat
 
 graph_data = graphviz.Graph()
 graph = nx.Graph()
