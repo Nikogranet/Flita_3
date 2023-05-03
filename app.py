@@ -14,7 +14,7 @@ with open("list.txt", 'r') as file:
             gr.append(top)
         elif len(top) == 1:
             graph.add_node(int(top[0]))
-            graph_data.edge(top[0])
+            graph_data.node(top[0])
             gr.append(top)
     print(gr)
 
